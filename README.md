@@ -1,6 +1,6 @@
 # TabTransformer
 
-Implementation of [TabTransformer](https://arxiv.org/abs/2012.06678) in Keras and Tensorflow.
+Implementation of [TabTransformer](https://arxiv.org/abs/2012.06678) in Keras.
 
 ## Usage
 
