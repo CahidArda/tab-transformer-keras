@@ -1,5 +1,5 @@
 
-def get_input_sets(feature_set, groups):
+def get_X_from_groups(feature_set, groups):
     """
     Generate input sets from a feature set for use in my custom TabTransformer
     Args:
@@ -14,7 +14,7 @@ def get_input_sets(feature_set, groups):
         result.append(feature_set[group])
     return result
 
-def get_input_sets(feature_set, cont_features, cat_features):
+def get_X_from_features(feature_set, cont_features, cat_features):
     groups = [cont_features]
     groups.extend(cat_features)
-    return get_input_sets(feature_set, groups)
+    return get_X_from_groups(feature_set, groups)
